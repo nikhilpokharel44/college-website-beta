@@ -1,0 +1,27 @@
+{
+  "name": "college-website-beta",
+  "version": "1.0.0",
+  "description": "Nihareeka college website bts",
+  "main": "server.js",
+  "scripts": {
+    "postbuild": "cd client && npm run build",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilpokharel44/college-website-beta.git"
+  },
+  "author": "Nikhil Pokharel & CO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhilpokharel44/college-website-beta/issues"
+  },
+  "homepage": "https://github.com/nikhilpokharel44/college-website-beta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
